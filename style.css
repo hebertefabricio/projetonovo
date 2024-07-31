@@ -1,0 +1,11 @@
+:root {
+   --cor-de--fundo:   #EBECEE;
+}
+
+body {
+    backgraud-color: var(--cor-de-fund);
+}
+
+h1 {
+    backgrond-coolor: white;
+}
