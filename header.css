@@ -2,12 +2,14 @@
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
 .cabeçalho {
-    backgrond-color: var(--bramco);
-    disply: flex;
+    background-color: var(--branco);
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -15,4 +17,8 @@
 .container {
     display: flex;
     align-items: center;
+}
+
+.container_imagem{
+   padding: 1em;
 }
